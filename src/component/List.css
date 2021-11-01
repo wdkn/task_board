@@ -1,0 +1,71 @@
+.board {
+    margin: auto;
+    width: 100%;
+}
+
+.boradName {
+    width: 80%;
+    text-align: left;
+    margin-left: 9.5%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background: #4b6dca; /*背景色*/
+    padding: 0.5em;/*�?字周り�?�余白*/
+    color: white;/*�?字を白に*/
+    border-radius: 0.5em;/*角�?�丸み*/
+
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-size: 30px;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.25;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0;
+  width: 78%;
+      box-shadow: 0 0 15px -6px #00000073;
+}
+table tr {
+  background-color: #fff;
+}
+table tbody tr:hover{
+  background-color: #fffae9;
+}
+table th,
+table td {
+  padding: .35em 1em;
+    text-align: left;
+
+  border-bottom: 1px solid #eee;
+}
+table thead th {
+    font-size: .85em;
+    padding: 1em;
+}
+table thead tr{
+  background-color: #5599EE;
+  color:#fff;
+}
+table tbody th {
+  text-align: left;
+  font-size: .8em;
+}
+
+@media screen and (max-width: 600px) {
+  table{width: 100%;}
+}
+
+.Todo {
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
+    margin: 8px;
+}
+
+.operation{
+  text-align: center;
+}

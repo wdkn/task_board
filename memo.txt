@@ -1,0 +1,4 @@
+mkdir react-firebase-todo && cd $_
+npm init -y
+npm i -S react@next react-dom@next styled-components @material-ui/core firebase
+npm i -D parcel-bundler

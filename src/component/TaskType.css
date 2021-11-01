@@ -1,0 +1,10 @@
+.taskType {
+    text-align: left;
+    font-size: 20px;
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.taskTypeArea {
+    margin:2px;
+}

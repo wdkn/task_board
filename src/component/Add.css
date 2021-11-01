@@ -1,0 +1,163 @@
+/*まず�?�お決まり�?�ボックスサイズ算�?�をborer-boxに */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;/*rem算�?�をし�?すくするために*/
+}
+
+.btn,
+a.btn,
+button.btn {
+  /* width: 10px;
+  height: 10px; */
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1;
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+  margin: 2px;
+}
+.form {
+    /* max-width: 100%; */
+    width: 80%;
+    align-items: center;
+    text-align: left;
+    margin-left: 10%;
+}
+.todo {
+    /* max-width: 100%; */
+}
+.todoform {
+    /* margin: 20px; */
+}
+.form-button {
+    margin: 5px;
+}
+.input-table {
+    /* max-width: 80%; */
+}
+.input-area {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+    /* position: relative; */
+
+    margin: 10px;
+    width: 100%;
+    /* background-color: khaki; */
+    font-size: 20px;
+}
+.button-area {
+    margin: 10px;
+    width: 80%;
+    /* background-color: silver; */
+    font-size: 20px;
+}
+.title {
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+.td{
+    width: 100%;
+}
+.title-text {
+    width: 70%;
+    border-radius: 5px;
+    outline: none;
+    /* border-style: 1px solid #FF0000;
+    border-color: black; */
+    font-size: 20px;
+}
+.title-text:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+.content-text {
+    max-width: 93%;
+    max-height: 200px;
+    min-width: 70%;
+    min-height: 10px;
+    /* line-height: 1.5; */
+        /* box-sizing:border-box; */
+    /* background: #d6ffff; */
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.content-text:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.itemHead {
+    margin-top: 20%;
+    vertical-align: top;
+}
+
+.input-inline-area {
+    margin: 2px;
+    width: auto;
+}
+
+/* 立体�?�タン */
+.btn--orange {
+    color: #fff;
+    background-color: #eb6100;
+    border-bottom: 5px solid #b84c00;
+    border-top: 0px solid #b84c00;
+    border-left: 0px solid #b84c00;
+    border-right: 0px solid #b84c00;
+}
+.btn--orange:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: #f56500;
+  border-bottom: 2px solid #b84c00;
+  border-top: 0px solid #b84c00;
+  border-left: 0px solid #b84c00;
+  border-right: 0px solid #b84c00;
+}
+.btn--gray {
+    color: #212529;
+    background-color: #dad2cd;
+    border-bottom: 5px solid #beb7b3;
+    border-top: 0px solid #beb7b3;
+    border-left: 0px solid #beb7b3;
+    border-right: 0px solid #beb7b3;
+}
+.btn--gray:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: #dad2cd;
+  border-bottom: 2px solid #beb7b3;
+  border-top: 0px solid #beb7b3;
+  border-left: 0px solid #beb7b3;
+  border-right: 0px solid #beb7b3;
+}
+.btn--shadow {
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+}

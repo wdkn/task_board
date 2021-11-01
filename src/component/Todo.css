@@ -1,0 +1,53 @@
+.Todo {
+    background-color: #abafcd;
+    border-radius: 0.5rem;
+    margin: 5px;
+}
+
+.td1 {
+    text-align: left;
+    white-space: pre-wrap;
+    max-width: 685px;
+    width: 600px;
+    /* word-wrap:break-word */
+}
+.td2 {
+    width: 130px;
+    text-align: right;
+}
+
+.th {
+    white-space: nowrap;
+    vertical-align: top;
+    width: 10%;
+}
+
+.table {
+    margin: 2px;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.statusBtn {
+    /* background-color: red; */
+    /* border-radius: 0.5rem; */
+    /* color: white; */
+    font-size: 18px;    
+    margin-left: 2px;
+    margin-right: 2px;
+    background    : rgba(255, 255, 255, 0.10);
+}
+button.statusBtn{
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: #0033cc;
+}
+button.statusBtn:hover{
+  text-decoration: underline;
+  color: #002080;
+}
+
+.operation{
+  text-align: center;
+}
